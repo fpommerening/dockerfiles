@@ -1,4 +1,4 @@
-FROM fpommerening/pri-rabbitmq:3
+FROM fpommerening/rpi-rabbitmq:3
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management
 
