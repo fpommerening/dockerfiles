@@ -1,7 +1,7 @@
 #!/bin/sh
-docker build -t fpommerening/pri-rabbitmq .
-docker build -t fpommerening/pri-rabbitmq:3 .
+docker build -t fpommerening/rpi-rabbitmq .
+docker build -t fpommerening/rpi-rabbitmq:3 .
 cd management
-docker build -t fpommerening/pri-rabbitmq:management .
-docker build -t fpommerening/pri-rabbitmq:3-management .
+docker build -t fpommerening/rpi-rabbitmq:management .
+docker build -t fpommerening/rpi-rabbitmq:3-management .
 cd ..
