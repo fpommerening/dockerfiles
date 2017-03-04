@@ -8,7 +8,7 @@ RUN apt-get update \
   && apt-get install -y curl \
   && rm -rf /var/lib/apt/lists/*
   
-ENV MONO_DEBIAN_VERSION 4.6.1.3
+ENV MONO_DEBIAN_VERSION 4.8.0.495
 
 RUN mkdir -p /run/udev \
 	&& chmod 777 /run/udev
